@@ -1,0 +1,47 @@
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.form-container{
+    margin: 10px 0px;
+    text-align: center;
+}
+.result{
+    padding: 10px 0px;
+    margin-top: 1rem;   
+}
+.form-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.switch{
+    margin-left: 5px;
+}
+.top-div{
+    padding: 5px;
+}
+.top-div h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.warning-message{
+    color: red;
+    font-weight: bolder;
+}
+.link-button {
+    background: none!important;
+    border: none;
+    padding: 0!important;
+    font-family: arial, sans-serif;
+    color: #069 !important;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+

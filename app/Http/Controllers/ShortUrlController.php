@@ -35,7 +35,7 @@ class ShortUrlController extends Controller
             return view('ShortUrl.shorturl', compact('compactUrl'));
         }
         $nsfwFlag = false;
-        if($request->input('nsfw')){
+        if(isset($request->all()['nsfw'])){
             $nsfwFlag = true;
         }
         $shortUrl = shorturl::where('bigUrl', $bigUrl)->first();
@@ -60,7 +60,7 @@ class ShortUrlController extends Controller
             $shortUrl->save();
             
         }
-        //return $shortUrl;
+        
         return view('ShortUrl.shorturl', compact('compactUrl'));
     }
 
@@ -78,6 +78,24 @@ class ShortUrlController extends Controller
         }
         
         return $fullSmallUrl;
+    }
+
+    public function linkRedirect($smallUrl){
+        $base = "https://smallUrl.com/";
+        $smallUrl =  $base.$smallUrl;
+        $shortUrlObj = shorturl::where('smallUrl', $smallUrl)->first();
+        if($shortUrlObj)
+            return redirect($shortUrlObj->bigUrl);
+    }
+
+    public function linkReturn($smallUrl){
+        $base = "https://smallUrl.com/";
+        $smallUrl =  $base.$smallUrl;
+        $shortUrlObj = shorturl::where('smallUrl', $smallUrl)->first();
+        if($shortUrlObj)
+            return $shortUrlObj->bigUrl;
+        else
+            return "URL CODE NOT FOUND";
     }
 
     /**
