@@ -13,10 +13,16 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-/*Route::get('/', function () {
-    return view('welcome');
-});*/
+
 Route::get('/smallUrl', function () {
     return view('ShortUrl.shorturl');
 });
+Route::get('/topUrl', function () {
+    return view('ShortUrl.topurl');
+});
+
 Route::post('/smallUrl', 'App\Http\Controllers\ShortUrlController@store');
+
+Route::get('/smallUrl/{smallUrl}', 'App\Http\Controllers\ShortUrlController@linkRedirect');
+
+Route::get('/{smallUrl}', 'App\Http\Controllers\ShortUrlController@linkReturn');
