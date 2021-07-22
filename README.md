@@ -68,40 +68,45 @@ You can now access the server at http://localhost:8000
 
 Here are some of the important urls from the website and apis, and a description on what they do. If you open the toggle you will see how to use that specific url.
 <summary>http://127.0.0.1:8000/smallUrl - Url Shortener main view</summary>
-![image](https://user-images.githubusercontent.com/49501942/126604133-1b2a2ccd-63ea-47bb-a1cc-f98fbc3b0422.png)
-<details>
 
-
-
-The usage of this view is fairly simple.
+The usage of this view is fairly simple. 
+- The top component are just to buttons that can change what you see. This buttons change the view between the shortener and the top.
+- To shorten your url, just add the link on the input box. Mark the check as NSFW if needed.
+- When you click on the button, the result of your input, will appear on the botton box.
 
 </details>
 
 <details>
 <summary>http://127.0.0.1:8000/smallUrl - Url shortener, top 100 view</summary>
 ```
-CODE!
+ On this view you will have the next uses:
+- The top component are just to buttons that can change what you see. This buttons change the view between the shortener and the top.
+- On each box there is information of the top 100 entered urls, if you click on the short URL you should be redirected to the referenced url. If you want to see the complete top, just scroll down to the bottom.
 ```
 </details>
 
 <details>
 <summary>http://127.0.0.1:8000/{smallCode} - Get unshortened url</summary>
-```
-CODE!
-```
+
+This is a simple api rout, if you add to the url, any small code, it will return the linked url if it has one.
+For example, if your small generated url is -> https://smallUrl.com/OSPx2. Entering the code OSPx2, you will get the actual value of the linked url on the database.
 </details>
 
 <details>
 <summary>http://127.0.0.1:8000/api/shortUrl - (GET METHOD) Top information</summary>
-```
-CODE!
-```
+This url will return an array with all of the top urls entered on the system.
 </details>
 
 <details>
 <summary>http://127.0.0.1:8000/api/shortUrl - (POST METHOD) Add new url</summary>
+When you post to this url, a new url will be saved on the system if its a new one, or it will return a previous saved small url.
+For example, if you want to make request on something like postman, you will need to add a body where you will enter the url to shorten, if the nsfw flag is not entered, this will be set to false by default.
+ - Example body:
 ```
-CODE!
+{
+    "bigUrl": "https://www.youtube.com/watchsomething785465",
+    "nsfw": 1
+}
 ```
 </details>
 
