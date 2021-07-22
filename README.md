@@ -67,10 +67,10 @@ You can now access the server at http://localhost:8000
 ## How to use the application.
 
 Here are some of the important urls from the website and apis, and a description on what they do. If you open the toggle you will see how to use that specific url.
-
-<details>
 <summary>http://127.0.0.1:8000/smallUrl - Url Shortener main view</summary>
 ![image](https://user-images.githubusercontent.com/49501942/126604133-1b2a2ccd-63ea-47bb-a1cc-f98fbc3b0422.png)
+<details>
+
 
 
 The usage of this view is fairly simple.
