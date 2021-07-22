@@ -64,6 +64,45 @@ You can now access the server at http://localhost:8000
     php artisan migrate
     php artisan serve
 
+## How to use the application.
+
+Here are some of the important urls from the website and apis, and a description on what they do. If you open the toggle you will see how to use that specific url.
+
+<details>
+<summary>http://127.0.0.1:8000/smallUrl - Url Shortener main view</summary>
+```
+CODE!
+```
+</details>
+
+<details>
+<summary>http://127.0.0.1:8000/smallUrl - Url shortener, top 100 view</summary>
+```
+CODE!
+```
+</details>
+
+<details>
+<summary>http://127.0.0.1:8000/{smallCode} -</summary>
+```
+CODE!
+```
+</details>
+
+<details>
+<summary>http://127.0.0.1:8000/api/shortUrl - (GET METHOD) Top information</summary>
+```
+CODE!
+```
+</details>
+
+<details>
+<summary>http://127.0.0.1:8000/api/shortUrl - (POST METHOD) Add new url</summary>
+```
+CODE!
+```
+</details>
+
 ## Challenges presented during the development.
 
 - Inexperience: I think one of the biggest challenges for me, was that I had basically zero knowledge on how does the Lavarel framework well, works. I had never even had a small check on how does lavarel manage a lot of the stuff it does, and learning how to do them was challenging. Although, if i must say, it was really enjoyable and fun, the short experience I had learning something new is something I always look for an value a lot.
