@@ -14,6 +14,8 @@ This installation process is shown in this README file is for the application an
 Alternative installation is possible without local dependencies relying on [Docker](#docker). 
 (Personally I used a docker/wsl2/ubuntu combo to install the laravel framework.)
 
+You will have to create a folder and clone the repository in that directory, for this installation example the folder is called: url-shortener
+
 Clone the repository
 
     git clone git@github.com:Akuseru3/UrlShortener.git
