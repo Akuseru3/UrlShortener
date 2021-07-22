@@ -70,9 +70,8 @@ Here are some of the important urls from the website and apis, and a description
 
 <details>
 <summary>http://127.0.0.1:8000/smallUrl - Url Shortener main view</summary>
-```
-CODE!
-```
+![image](https://user-images.githubusercontent.com/49501942/126603817-836fd5c0-147a-42eb-bfe2-dc3bf1430bec.png)
+On this view, you can make your url short. To make my description simpler, the numbers on the image represent something usefull on this view. 
 </details>
 
 <details>
@@ -83,7 +82,7 @@ CODE!
 </details>
 
 <details>
-<summary>http://127.0.0.1:8000/{smallCode} -</summary>
+<summary>http://127.0.0.1:8000/{smallCode} - Get unshortened url</summary>
 ```
 CODE!
 ```
