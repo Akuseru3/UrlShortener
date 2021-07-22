@@ -67,6 +67,7 @@ You can now access the server at http://localhost:8000
 ## How to use the application.
 
 Here are some of the important urls from the website and apis, and a description on what they do. If you open the toggle you will see how to use that specific url.
+<details>
 <summary>http://127.0.0.1:8000/smallUrl - Url Shortener main view</summary>
 
 The usage of this view is fairly simple. 
@@ -102,12 +103,12 @@ This url will return an array with all of the top urls entered on the system.
 When you post to this url, a new url will be saved on the system if its a new one, or it will return a previous saved small url.
 For example, if you want to make request on something like postman, you will need to add a body where you will enter the url to shorten, if the nsfw flag is not entered, this will be set to false by default.
  - Example body:
-```
+
 {
     "bigUrl": "https://www.youtube.com/watchsomething785465",
     "nsfw": 1
 }
-```
+
 </details>
 
 ## Challenges presented during the development.
