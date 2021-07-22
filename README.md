@@ -78,7 +78,7 @@ You can now access the server at http://localhost:8000
 - Bonus objectives: I thought of this bonus objectives as a must, because I really wanted to learn from the framework, and what better way to do it than reasearching more to develop something else! So the implementation of the NSFW Flags was on my brain since the start, and it seemed relatively conviniente to just save this on the dabase and access it and change it on the Apis creation according the the user needs.
 
 
-### Future improvements
+## Future improvements
 - View management: Something that I would change for a future development would definitively be this, in the moment of coding, something that worked for me was to create two blade views, and manage them from separate files accesed by different urls, but I think because this is a small development challenge, this was not really necesary, and could be done by just hiding what the user can, and cannot see.
 - Website look: Since I wanted to solve the issue, but taking into account my little knowledge on the framework, the researching process made things longer, so an easy solution for the look of the website, was to use simple boostrap classes, but If you want to get really fancy, there is a lot to do to make the site look better.
 
