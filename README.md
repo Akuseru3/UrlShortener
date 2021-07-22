@@ -66,6 +66,9 @@ You can now access the server at http://localhost:8000
 
 ## How to use the application.
 
+The app is also deployed on heroku, you can check it on this link.
+https://lit-reef-51059.herokuapp.com/smallUrl
+
 Here are some of the important urls from the website and apis, and a description on what they do. If you open the toggle you will see how to use that specific url.
 <details>
 <summary>http://127.0.0.1:8000/smallUrl - Url Shortener main view</summary>
