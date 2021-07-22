@@ -134,7 +134,7 @@ For example, if you want to make request on something like postman, you will nee
 
 - API: Well, for the API part, I do know how to code them, but since I was new on the framework, I had to research a lot on how to manage them correctly, I followed a wonderful guide, that taught me, how to make use of pregenerated methods of a controller, with a PHP Artisan command. And then, I based the methods that I needed using those ones. **[API Management Tutorial](https://www.section.io/engineering-education/how-to-create-an-api-using-laravel/)**
 
-- Bonus objectives: I thought of this bonus objectives as a must, because I really wanted to learn from the framework, and what better way to do it than reasearching more to develop something else! So the implementation of the NSFW Flags was on my brain since the start, and it seemed relatively conviniente to just save this on the dabase and access it and change it on the Apis creation according the the user needs.
+- Bonus objectives: I thought of this bonus objectives as a must, because I really wanted to learn from the framework, and what better way to do it than researching more to develop something else! So the implementation of the NSFW Flags was on my brain since the start, and it seemed relatively convienient to just save this on the database, access it and change it on the Apis creation according the the user needs.
 
 
 ## Future improvements
