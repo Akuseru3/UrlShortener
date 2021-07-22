@@ -125,7 +125,7 @@ For example, if you want to make request on something like postman, you will nee
 
 ## Challenges presented during the development.
 
-- Inexperience: I think one of the biggest challenges for me, was that I had basically zero knowledge on how does the Lavarel framework well, works. I had never even had a small check on how does lavarel manage a lot of the stuff it does, and learning how to do them was challenging. Although, if i must say, it was really enjoyable and fun, the short experience I had learning something new is something I always look for an value a lot.
+- Inexperience: I think one of the biggest challenges for me, was that I had basically zero knowledge on how does the Lavarel framework worked. I have never even had a small taste on how does lavarel manage a lot of the stuff it does, and learning how to do them was challenging. Although, if I must say, it was really enjoyable and fun, the short experience I had learning something new is something I always look for an value a lot.
 - Real life, and time management: Well, to start, I wanted to work on the challenge since Saturday 17, but real life situations did not permit that. (Got sick during the weekend lol). But life is not always how you want it to be, so at monday after work, I started working on the challenge, and tried to do my best work in the amount of time I could work, balancing the other things I do in my everyday life.
 - Laravel installation: Well, since I knew nothing on the framework, I didn't even knew from where to start, I must thank the wonderful people from youtube and the internet that make guides for this haha
 
