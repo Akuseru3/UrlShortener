@@ -70,9 +70,11 @@ Here are some of the important urls from the website and apis, and a description
 
 <details>
 <summary>http://127.0.0.1:8000/smallUrl - Url Shortener main view</summary>
-![image](https://user-images.githubusercontent.com/49501942/126603817-836fd5c0-147a-42eb-bfe2-dc3bf1430bec.png)
+![image](https://user-images.githubusercontent.com/49501942/126604133-1b2a2ccd-63ea-47bb-a1cc-f98fbc3b0422.png)
 
-On this view, you can make your url short. To make my description simpler, the numbers on the image represent something usefull on this view. 
+
+The usage of this view is fairly simple.
+
 </details>
 
 <details>
