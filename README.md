@@ -12,24 +12,20 @@
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
 - [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
-
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
 ## Challenges presented during the development.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+- Inexperience: I think one of the biggest challenges for me, was that I had basically zero knowledge on how does the Lavarel framework well, works. I had never even had a small check on how does lavarel manage a lot of the stuff it does, and learning how to do them was challenging. Although, if i must say, it was really enjoyable and fun, the short experience I had learning something new is something I always look for an value a lot.
+- Real life, and time management: Well, to start, I wanted to work on the challenge since Saturday 17, but real life situations did not permit that. (Got sick during the weekend lol). But life is not always how you want it to be, so at monday after work, I started working on the challenge, and tried to do my best work in the amount of time I could work, balancing the other things I do in my everyday life.
+- Laravel installation: Well, since I knew nothing on the framework, I didn't even knew from where to start, I must thank the wonderful people from youtube and the internet that make guides for this haha
 
 ## Desing decisions.
+- Frontend: If I must say something, is that I'm a little bit rusty on the frontend department, and I know that improvement comes easily with practice, at least I think that for myself. So, to make something presentable, but not working a huge amount of time, that would make the development of the challenge a lot longer, I implemented some simple bootstrap to help me with this.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+- API: Well, for the API part, I do know how to code them, but since I was new on the framework, I had to research a lot on how to manage them correctly, I followed a wonderful guide, that taught me, how to make use of pregenerated methods of a controller, with a PHP Artisan command. And then, I based the method that I needed using those ones.
+
+-Bonus objectives: I thought of this bonus objectives as a must, because I really wanted to learn from the framework, and what better way to do it than reasearching more to develop something else! So the implementation of the NSFW Flags was on my brain since the start, and it seemed relatively conviniente to just save this on the dabase and access it and change it on the Apis creation according the the user needs.
+
 
 ### Future improvements
 - **[OP.GG](https://op.gg)**
