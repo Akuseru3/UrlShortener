@@ -9,9 +9,58 @@
 
 ## How to setup and install the application.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+This installation process is shown in this README file is for the application and how to get it from the repository, please check the official laravel installation guide for its requirements before you start. [Official Documentation](https://laravel.com/docs/5.4/installation#installation)
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
+Alternative installation is possible without local dependencies relying on [Docker](#docker). 
+(Personally I used a docker/wsl2/ubuntu combo to install the laravel framework.)
+
+Clone the repository
+
+    git clone git@github.com:Akuseru3/UrlShortener.git
+
+Switch to the repo folder
+
+    cd laravel-realworld-example-app
+
+Install all the dependencies using composer
+
+    composer install
+
+Copy the example env file and make the required configuration changes in the .env file
+
+    cp .env.example .env
+
+Generate a new application key
+
+    php artisan key:generate
+
+Generate a new JWT authentication secret key
+
+    php artisan jwt:generate
+
+Run the database migrations (**Set the database connection in .env before migrating**)
+
+    php artisan migrate
+
+Start the local development server
+
+    php artisan serve
+
+You can now access the server at http://localhost:8000
+
+**TL;DR command list**
+
+    git clone git@github.com:gothinkster/laravel-realworld-example-app.git
+    cd laravel-realworld-example-app
+    composer install
+    cp .env.example .env
+    php artisan key:generate
+    php artisan jwt:generate 
+    
+**Make sure you set the correct database connection information before running the migrations** [Environment variables](#environment-variables)
+
+    php artisan migrate
+    php artisan serve
 
 ## Challenges presented during the development.
 
@@ -27,8 +76,7 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 - Bonus objectives: I thought of this bonus objectives as a must, because I really wanted to learn from the framework, and what better way to do it than reasearching more to develop something else! So the implementation of the NSFW Flags was on my brain since the start, and it seemed relatively conviniente to just save this on the dabase and access it and change it on the Apis creation according the the user needs.
 
 
-
-
-
 ### Future improvements
-- **[OP.GG](https://op.gg)**
+- View management: Something that I would change for a future development would definitively be this, in the moment of coding, something that worked for me was to create two blade views, and manage them from separate files accesed by different urls, but I think because this is a small development challenge, this was not really necesary, and could be done by just hiding what the user can, and cannot see.
+- Website look: Since I wanted to solve the issue, but taking into account my little knowledge on the framework, the researching process made things longer, so an easy solution for the look of the website, was to use simple boostrap classes, but If you want to get really fancy, there is a lot to do to make the site look better.
+
