@@ -74,6 +74,7 @@ The usage of this view is fairly simple.
 - To shorten your url, just add the link on the input box. Mark the check as NSFW if needed.
 - When you click on the button, the result of your input, will appear on the botton box.
 
+When adding urls, please add complete urls, for example, a format like -> https://www.facebook.com/
 
 </details>
 
@@ -95,7 +96,7 @@ The usage of this view is fairly simple.
 
 
 
-This is a simple api rout, if you add to the url, any small code, it will return the linked url if it has one.
+This is a simple api route, if you add to the url, any small code, it will return the linked url if it has one.
 For example, if your small generated url is -> https://smallUrl.com/OSPx2. Entering the code OSPx2, you will get the actual value of the linked url on the database.
 </details>
 
@@ -145,4 +146,4 @@ For example, if you want to make request on something like postman, you will nee
 ## Future improvements
 - View management: Something that I would change for a future development would definitively be this, in the moment of coding, something that worked for me was to create two blade views, and manage them from separate files accesed by different urls, but I think because this is a small development challenge, this was not really necesary, and could be done by just hiding what the user can, and cannot see.
 - Website look: Since I wanted to solve the issue, but taking into account my little knowledge on the framework, the researching process made things longer, so an easy solution for the look of the website, was to use simple boostrap classes, but If you want to get really fancy, there is a lot to do to make the site look better.
-
+- URL Validation: As of right now, it only checks if the url is in the correct format,maybe it should request to the url to see if its a correct one.
