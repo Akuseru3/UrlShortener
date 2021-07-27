@@ -73,7 +73,7 @@ When adding urls, please add complete urls, for example, a format like -> https:
 </details>
 
 <details>
-<summary>http://127.0.0.1:8000/smallUrl - Url shortener, top 100 view</summary>
+<summary>http://127.0.0.1:8000/topUrl - Url shortener, top 100 view</summary>
 
 
 
